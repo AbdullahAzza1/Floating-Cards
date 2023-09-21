@@ -31,6 +31,7 @@ p{
 }
 
 
+
 .float-left{
     height: 80px;
     float:left;
@@ -43,8 +44,10 @@ p{
     
 }
 .clearfix{
-    
+    display: inline-block;
+    float: left;
     text-align: left;
     background-color: black;
     width: calc(100% / 3);
+    
 }
