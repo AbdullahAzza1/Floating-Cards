@@ -48,6 +48,7 @@ p{
     float: left;
     text-align: left;
     background-color: black;
-    width: calc(100% / 3);
+    width: calc(95% / 3);
+    margin-right: 15px;
     
 }
