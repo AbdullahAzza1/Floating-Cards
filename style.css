@@ -3,3 +3,20 @@
     padding: 0;
     margin: 0;
 }
+main h1{
+    font-family: Fredoka, sans-serif ;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px;
+    color:  #E53170;
+}
+main{
+    font-family: fredoka, sans-serif;
+    margin-left: 11%;
+    width: 78%;
+    text-align: center;
+    font-size: revert;
+    margin-bottom: 40px;
+}
+}
+}
