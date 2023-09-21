@@ -35,6 +35,6 @@ p{
 }
 .float-center{
     height: 80px;
-    float: calc(100% / 3);
+    
     background-color:#0F0E17 ;
 }
