@@ -21,20 +21,30 @@ main{
 main div{
     margin-bottom: 30px;
 }
-p{
-    display: inline-block;
+p{    
+    color: white;
+    margin: 5px;
+    margin-left: 90px;   
 }
+.email{
+    color: rgb(74, 158, 210);
+}
+
+
 .float-left{
     height: 80px;
-    float: left;
-    background-color:#0F0E17 ;
+    float:left;
+
 }
 .clearfix::after{
-    clear: both;
+    content: "";
+	clear: both;
 	display: table;
-}
-.float-center{
-    height: 80px;
     
-    background-color:#0F0E17 ;
+}
+.clearfix{
+    
+    text-align: left;
+    background-color: black;
+    width: calc(100% / 3);
 }
