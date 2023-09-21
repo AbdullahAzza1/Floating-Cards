@@ -18,5 +18,23 @@ main{
     font-size: revert;
     margin-bottom: 40px;
 }
+main div{
+    margin-bottom: 30px;
 }
+p{
+    display: inline-block;
+}
+.float-left{
+    height: 80px;
+    float: left;
+    background-color:#0F0E17 ;
+}
+.clearfix::after{
+    clear: both;
+	display: table;
+}
+.float-center{
+    height: 80px;
+    float: calc(100% / 3);
+    background-color:#0F0E17 ;
 }
